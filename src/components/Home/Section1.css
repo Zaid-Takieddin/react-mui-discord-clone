@@ -1,0 +1,33 @@
+@media (max-width: 900px) {
+  .img1 {
+    left: -80px !important;
+  }
+}
+
+.img {
+  position: absolute;
+  bottom: 0px;
+  width: 170%;
+  max-width: fit-content;
+}
+
+.img1 {
+  position: absolute;
+  bottom: 0px;
+  left: -220px;
+  z-index: 9;
+  max-width: fit-content;
+  width: 100%;
+  height: auto;
+}
+
+.img2 {
+  position: absolute;
+  bottom: 0px;
+  right: -200px;
+  z-index: 9;
+  max-width: fit-content;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
